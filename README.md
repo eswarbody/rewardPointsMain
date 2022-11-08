@@ -1,8 +1,29 @@
-### Assignment to calcuate reward points for a user 
+### Assignment to calculate reward points for a user given transaction dates 
 
+### Technical Details
+    1. Java 8
+    2. Execution Flow: 
+        client request -->Controller
+                            -->Service
+                                -->Repository
+                                    -->Persistence
+    3. UnitTesting & Integration Testing
+    4. Performance Testing <Gatling>
+
+### Business logic  
+    1. Calculating RewardPoints for a user in each transaction
+    2. if transaction amount is over 100 then reward points should be * 2 
+       and over 50 should be * 1
+    3. example: transaction amount is 120 then points would be 20*2 + 50*1 = 90
 
 ##### To run the app:
 - ``` ./mvnw spring-boot:run -Dspring-boot.run.profiles=dev```
+
+##### To run the unit+integration test testing: execute 
+- ` ./mvnw test `
+
+##### Swagger UI:
+- http://localhost:8080/swagger-ui/index.html
 
 #### Test Data
 <pre>
@@ -15,12 +36,6 @@
 | 2       | 2022-11-08       |
 | 3       | 2021-10-09       |
 </pre>
-
-##### To run the unit+integration test testing: execute 
-- ` ./mvnw test `
-
-##### Swagger UI:
-- http://localhost:8080/swagger-ui/index.html
 
 ##### To run the performance (Gatling) testing: execute 
 - `  ./mvnw  gatling:test -Dgatling.simulationClass=performance.com.assignment.rewards.points.PointsSimulation -Dmaven.test.skip=true `
