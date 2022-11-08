@@ -1,0 +1,64 @@
+ASSERTION	AAEDAAEFAAAAAAAAwFdAAwAAAAAAAGr4QA==
+ASSERTION	AAICAAMBAAAAAAAAABRA
+ASSERTION	AAECAAICAAAAAAAAwFdA
+RUN	performance.com.assignment.rewards.points.PointsSimulation	pointssimulation	1667907748367	 	3.7.3
+USER	PointsCalcBySingleMonth	START	1667907750169
+USER	PointsCalcBySingleMonth	START	1667907750170
+USER	PointsCalcBySingleMonth	START	1667907750169
+USER	PointsCalcBySingleMonth	START	1667907750170
+USER	PointsCalcBySingleMonth	START	1667907750170
+USER	PointsCalcBySingleMonth	START	1667907750169
+USER	PointsCalcBySingleMonth	START	1667907750169
+USER	PointsCalcBySingleMonth	START	1667907750169
+USER	PointsCalcBySingleMonth	START	1667907750170
+USER	PointsCalcBySingleMonth	START	1667907750169
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750250	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750250	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750250	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750250	1667907750766	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907750251	1667907750766	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcBySingleMonth	END	1667907750965
+USER	PointsCalcBySingleMonth	END	1667907750965
+USER	PointsCalcBySingleMonth	END	1667907750966
+USER	PointsCalcBySingleMonth	END	1667907750966
+USER	PointsCalcBySingleMonth	END	1667907750966
+USER	PointsCalcBySingleMonth	END	1667907750967
+USER	PointsCalcBySingleMonth	END	1667907750968
+USER	PointsCalcBySingleMonth	END	1667907750968
+USER	PointsCalcBySingleMonth	END	1667907750968
+USER	PointsCalcBySingleMonth	END	1667907750971
+USER	PointsCalcByRange	START	1667907751162
+USER	PointsCalcByRange	START	1667907751162
+USER	PointsCalcByRange	START	1667907751163
+USER	PointsCalcByRange	START	1667907751164
+USER	PointsCalcByRange	START	1667907751162
+USER	PointsCalcByRange	START	1667907751161
+REQUEST		PointsPerMonth	1667907751162	1667907751194	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907751163	1667907751195	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751197
+USER	PointsCalcByRange	END	1667907751197
+REQUEST		PointsPerMonth	1667907751165	1667907751200	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907751162	1667907751202	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	START	1667907751182
+USER	PointsCalcByRange	END	1667907751204
+USER	PointsCalcByRange	END	1667907751205
+REQUEST		PointsPerMonth	1667907751163	1667907751222	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751225
+USER	PointsCalcByRange	START	1667907751161
+REQUEST		PointsPerMonth	1667907751176	1667907751237	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751240
+USER	PointsCalcByRange	START	1667907751174
+REQUEST		PointsPerMonth	1667907751198	1667907751248	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751251
+USER	PointsCalcByRange	START	1667907751214
+REQUEST		PointsPerMonth	1667907751233	1667907751268	KO	status.find.transform.is(200), but actually found 404
+REQUEST		PointsPerMonth	1667907751162	1667907751268	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751271
+USER	PointsCalcByRange	END	1667907751271
+REQUEST		PointsPerMonth	1667907751234	1667907751283	KO	status.find.transform.is(200), but actually found 404
+USER	PointsCalcByRange	END	1667907751285

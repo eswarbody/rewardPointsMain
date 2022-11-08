@@ -1,0 +1,8 @@
+com\assignment\rewards\points\repository\TransactionRepositoryTest.class
+performance\com\assignment\rewards\points\SystemPropertiesUtil.class
+com\assignment\rewards\points\controller\RewardPointsControllerTest.class
+com\assignment\rewards\points\utils\RewardPointsUtilsTest.class
+performance\com\assignment\rewards\points\PointsSimulation.class
+com\assignment\rewards\points\service\RewardPointServiceTest.class
+performance\com\assignment\rewards\points\PerfTestConfig.class
+com\assignment\rewards\points\repository\UserRepositoryTest.class

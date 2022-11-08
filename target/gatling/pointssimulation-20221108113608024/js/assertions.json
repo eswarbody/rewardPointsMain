@@ -1,0 +1,36 @@
+{
+  "simulation": "performance.com.assignment.rewards.points.PointsSimulation",
+  "simulationId": "pointssimulation",
+  "start": 1667907368024,
+  "description": "",
+  "scenarios": ["PointsCalcBySingleMonth", "PointsCalcByRange"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "95th percentile of response time",
+  "condition": "is less than",
+  "expectedValues": [100000.0],
+  "result": true,
+  "message": "Global: 95th percentile of response time is less than 100000.0",
+  "actualValue": [4555.0]
+},
+{
+  "path": "PointsPerMonth",
+  "target": "percentage of failed events",
+  "condition": "is less than or equal to",
+  "expectedValues": [5.0],
+  "result": false,
+  "message": "PointsPerMonth: percentage of failed events is less than or equal to 5.0",
+  "actualValue": [100.0]
+},
+{
+  "path": "Global",
+  "target": "percentage of successful events",
+  "condition": "is greater than or equal to",
+  "expectedValues": [95.0],
+  "result": false,
+  "message": "Global: percentage of successful events is greater than or equal to 95.0",
+  "actualValue": [0.0]
+}
+  ]
+}

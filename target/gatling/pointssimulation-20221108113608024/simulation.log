@@ -1,0 +1,64 @@
+ASSERTION	AAEDAAEFAAAAAAAAwFdAAwAAAAAAAGr4QA==
+ASSERTION	AAICAAMBAAAAAAAAABRA
+ASSERTION	AAECAAICAAAAAAAAwFdA
+RUN	performance.com.assignment.rewards.points.PointsSimulation	pointssimulation	1667907368024	 	3.7.3
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370021
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+USER	PointsCalcBySingleMonth	START	1667907370020
+REQUEST		PointsPerMonth	1667907370103	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370105	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370105	1667907374645	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370106	1667907374645	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370102	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370102	1667907374660	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370102	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370105	1667907374660	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370105	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907370102	1667907374644	KO	j.n.ConnectException: Connection refused: no further information
+USER	PointsCalcBySingleMonth	END	1667907374693
+USER	PointsCalcBySingleMonth	END	1667907374693
+USER	PointsCalcBySingleMonth	END	1667907374694
+USER	PointsCalcBySingleMonth	END	1667907374694
+USER	PointsCalcBySingleMonth	END	1667907374694
+USER	PointsCalcBySingleMonth	END	1667907374694
+USER	PointsCalcBySingleMonth	END	1667907374695
+USER	PointsCalcBySingleMonth	END	1667907374695
+USER	PointsCalcBySingleMonth	END	1667907374697
+USER	PointsCalcBySingleMonth	END	1667907374699
+USER	PointsCalcByRange	START	1667907375010
+USER	PointsCalcByRange	START	1667907375010
+USER	PointsCalcByRange	START	1667907375011
+USER	PointsCalcByRange	START	1667907375008
+USER	PointsCalcByRange	START	1667907375016
+USER	PointsCalcByRange	START	1667907375016
+USER	PointsCalcByRange	START	1667907375009
+USER	PointsCalcByRange	START	1667907375022
+USER	PointsCalcByRange	START	1667907375008
+USER	PointsCalcByRange	START	1667907375023
+REQUEST		PointsPerMonth	1667907375012	1667907379091	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375011	1667907379091	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375011	1667907379091	KO	j.n.ConnectException: Connection refused: no further information
+USER	PointsCalcByRange	END	1667907379092
+USER	PointsCalcByRange	END	1667907379092
+USER	PointsCalcByRange	END	1667907379092
+REQUEST		PointsPerMonth	1667907375017	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375026	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375011	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375009	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375017	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+REQUEST		PointsPerMonth	1667907375025	1667907379107	KO	j.n.ConnectException: Connection refused: no further information
+USER	PointsCalcByRange	END	1667907379108
+REQUEST		PointsPerMonth	1667907375024	1667907379109	KO	j.n.ConnectException: Connection refused: no further information
+USER	PointsCalcByRange	END	1667907379108
+USER	PointsCalcByRange	END	1667907379108
+USER	PointsCalcByRange	END	1667907379108
+USER	PointsCalcByRange	END	1667907379108
+USER	PointsCalcByRange	END	1667907379108
+USER	PointsCalcByRange	END	1667907379110
